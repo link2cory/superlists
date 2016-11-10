@@ -37,7 +37,7 @@ class NewVisitorTest(unittest.TestCase):
 
         # She visits that URL - her to-do list is still there.
 
-        # Satidfied, she goes back to sleep
+        # Satisfied, she goes back to sleep
 
 if __name__ == '__main__':
     unittest.main(warnings='ignore')
