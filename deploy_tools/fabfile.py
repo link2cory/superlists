@@ -6,7 +6,7 @@ REPO_URL = 'https://github.com/link2cory/superlists.git'
 
 
 def deploy():
-    site_foler = '/home/%s/sites/%s' % (env.user, env.host)
+    site_folder = '/home/%s/sites/%s' % (env.user, env.host)
     source_folder = site_folder + '/source'
     _create_directory_structure_if_necessary(site_folder)
     _get_latest_source(source_folder)
